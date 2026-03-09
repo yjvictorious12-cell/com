@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Buy All</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/stle.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>   
+     <div class="design">
+ <header class="site-header">
+    <div class="container">
+        <div class="logo">Buy<span>It</span></div>
+
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+           <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="login.html">Log In</a></li>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Categories<span class="arrow">▼</span></a>
+            <ul class="dropdown">
+              <li><a href="#">Fresh Produce</a></li>
+              <li><a href="#">Meat &amp; Seafood</a></li>
+              <li><a href="#">Dairy &amp; Eggs</a></li>
+              <li><a href="#">Bakery</a></li>
+              <li><a href="#">Beverages</a></li>
+              <li><a href="#">Snacks &amp; Confectionery</a></li>
+              <li><a href="#">Frozen Foods</a></li>
+              <li><a href="#">Canned &amp; Packaged Foods</a></li>
+              <li><a href="#">Cereals &amp; Breakfast</a></li>
+              <li><a href="#">Condiments &amp; Spices</a></li>
+              <li><a href="#">Personal Care &amp; Hygiene</a></li>
+              <li><a href="#">Household &amp; Cleaning</a></li>
+              <li><a href="#">Baby Products</a></li>
+              <li><a href="#">Pet Supplies</a></li>
+              <li><a href="#">Health &amp; Wellness</a></li>
+              <li><a href="phones.html">Electronics &amp; Gadgets</a></li>
+              <li><a href="wears.html">Clothing &amp; Accessories</a></li>
+              <li><a href="home_ele.html">Home Appliances</a></li>
+              <li><a href="kitchen.html">Kitchen Utensils</a></li>
+              <li><a href="#">Stationery &amp; Office</a></li>
+              <li><a href="automobile.html">Automotive</a></li>
+              <li><a href="#">Sports &amp; Outdoors</a></li>
+              <li><a href="#">Toys &amp; Games</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <div class="srch">
+          <form action="#">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="search" id="search" placeholder="Search products...">
+            <button type="submit">Search</button>
+          </form>
+        </div>
+        <a href="cart.html" class="cart-link">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-badge hidden" id="cart-badge">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+    <div class="auth-container">
+      <div class="auth-form">
+        <h1 class="auth-title">Create Account</h1>
+        <p class="auth-subtitle">Register to start shopping</p>
+
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required>
+          </div>
+
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+          </div>
+
+          <button type="submit" class="auth-btn">Register</button>
+        </form>
+
+        <p class="auth-switch">
+          Already have an account? <a href="login.html">Log in here</a>
+        </p>
+      </div>
+    </div>
+
+   </div>
+</body>
+</html>
